@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class TriangleClassifier {
-    public static String classifyTriangle(int a, int b, int c) {
+    public String classifyTriangle(int a, int b, int c) {
         if (a + b > c || a + c > b || b + c > a) {
             if (a == b && b == c) {
                 return "Tam giac deu";
