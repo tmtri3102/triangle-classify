@@ -60,6 +60,17 @@ class TriangleClassifierTest {
         assertEquals(expected, result);
     }
 
+    @Test
+    @DisplayName("Test khong phai tam giac 3")
+    void testNotTriangle3() {
+        int a = 0;
+        int b = 1;
+        int c = 1;
+        String expected = "Khong phai tam giac";
+        String result = classifier.classifyTriangle(a, b, c);
+        assertEquals(expected, result);
+    }
+
 
 
 
